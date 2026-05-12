@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  width: 100%;
+  /* background-color: #222; */
+  padding: 15px 20px;
+}
+
+.logo,
+.nav-links,
+.user {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.logo {
+  width: 20%;
+  /* color: white; */
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  width: 55%;
+  text-align: center;
+}
+
+.nav-links a {
+  color: #222;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+}
+
+.nav-links a:hover {
+  color: yellow;
+}
+
+.user {
+  width: 20%;
+  text-align: right;
+  color: rgb(0, 153, 255);
+  font-size: 18px;
+}
+
+.user p {
+  background-color: rgb(191, 255, 234);
+  padding: 10px 20px;
+  width: 50%;
+  float: right;
+  border-radius: 10px;
+}
+
+#hero-section {
+  width: 100%;
+}
+
+.left-hero,
+.right-hero {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.left-hero {
+  width: 49%;
+  padding: 90px;
+}
+
+.left-hero h2 {
+  font-size: 50px;
+  color: #333;
+}
+
+.left-hero h2 mark {
+  background-color: transparent;
+  color: aqua;
+}
+
+.left-hero p {
+  color: #999;
+}
+
+.left-hero button {
+  margin-top: 30px;
+  background-color: aqua;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 15px 40px;
+  font-size: 20px;
+}
+.right-hero {
+  width: 49%;
+  padding: 20px 100px;
+}
